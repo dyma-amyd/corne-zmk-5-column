@@ -58,34 +58,34 @@
 &trans  &kp Q  &kp W               &kp E       &kp R           &kp T         &kp Y      &kp U          &kp I                 &td MINUS O          &kp P          &trans
 &trans  &kp A  &hm LEFT_CONTROL S  &hm LALT D  &hm LGUI F      &kp G         &kp H      &hm RGUI J     &hm RALT K            &hm RIGHT_CONTROL L  &kp SEMICOLON  &trans
 &trans  &kp Z  &kp X               &kp C       &kp V           &kp B         &kp N      &kp M          &td UNDERSCORE COMMA  &td EXCL DOT         &kp SLASH      &trans
-                                   &to 0       &mt LCMD SPACE  &sk LSHIFT    &kp ENTER  &kp BACKSPACE  &to 1
+                                   &to 3       &hm LCMD SPACE  &sk LSHIFT    &kp ENTER  &kp BACKSPACE  &to 1
             >;
         };
 
         numsym_layer {
             bindings = <
-&trans  &kp ESC    &kp AT_SIGN  &td LC(LG(LS(N4))) LS(N3)  &kp DLLR          &kp PRCNT        &kp CARET  &kp LS(COMMA)         &kp LS(DOT)            &kp SEMI  &kp MINUS  &trans
-&trans  &kp TAB    &kp EQUAL    &kp LA(RBKT)               &kp LA(LS(RBKT))  &kp SQT          &kp BSLH   &kp LBRC              &kp RBRC               &kp PIPE  &kp EQUAL  &trans
-&trans  &kp TILDE  &kp LA(N3)   &kp LA(LBKT)               &kp LA(LS(LBKT))  &kp DQT          &kp LBKT   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RBKT  &kp SLASH  &trans
-                                &to 0                      &kp LCMD          &kp BACKSPACE    &kp ENTER  &to 3                 &to 2
+&trans  &kp ESC  &kp AT_SIGN  &td LC(LG(LS(N4))) LS(N3)  &kp DLLR          &kp PRCNT         &kp CARET  &kp LS(COMMA)         &kp LS(DOT)            &kp SEMI  &kp MINUS  &trans
+&trans  &kp TAB  &kp TILDE    &kp LA(RBKT)               &kp LA(LS(RBKT))  &kp SQT           &kp BSLH   &kp LBRC              &kp RBRC               &kp PIPE  &kp EQUAL  &trans
+&trans  &to 3    &kp LA(N3)   &kp LA(LBKT)               &kp LA(LS(LBKT))  &kp DQT           &kp LBKT   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RBKT  &kp SLASH  &trans
+                              &to 0                      &hm LCMD SPACE    &kp LEFT_SHIFT    &kp ENTER  &kp BACKSPACE         &to 2
             >;
         };
 
         fun_layer {
             bindings = <
-&trans  &kp ESC  &kp C_PP  &kp C_PREV    &kp C_NEXT    &kp LS(MINUS)       &kp MINUS  &kp N7  &kp N8  &kp N9  &kp BACKSPACE  &trans
-&trans  &kp TAB  &trans    &kp C_VOL_DN  &kp C_VOL_UP  &kp LS(EQUAL)       &kp EQUAL  &kp N4  &kp N5  &kp N6  &kp ENTER      &trans
-&trans  &to 0    &kp AMPS  &kp SLASH     &kp STAR      &kp SINGLE_QUOTE    &kp N0     &kp N1  &kp N2  &kp N3  &trans         &trans
-                           &to 0         &trans        &sk LEFT_SHIFT      &sk RALT   &to 3   &to 1
+&trans  &kp ESC  &kp C_PP  &kp C_PREV    &kp C_NEXT          &kp LS(MINUS)       &kp MINUS  &kp N7         &kp N8  &kp N9  &kp BACKSPACE  &trans
+&trans  &kp TAB  &none     &kp C_VOL_DN  &kp C_VOL_UP        &kp LS(EQUAL)       &kp EQUAL  &kp N4         &kp N5  &kp N6  &kp COMMA      &trans
+&trans  &to 3    &kp AMPS  &kp SLASH     &kp STAR            &kp SINGLE_QUOTE    &kp N0     &kp N1         &kp N2  &kp N3  &kp DOT        &trans
+                           &to 0         &hm LEFT_GUI SPACE  &kp LEFT_SHIFT      &kp ENTER  &kp BACKSPACE  &to 2
             >;
         };
 
         sys_layer {
             bindings = <
-&trans  &trans               &trans          &mmv MOVE_UP    &trans           &trans           &trans         &kp LG(LEFT_BRACKET)  &kp RC(RS(TAB))  &kp RC(TAB)  &kp LG(RIGHT_BRACKET)  &trans
-&trans  &kp F1               &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp BACKSPACE    &kp PAGE_UP    &kp LEFT_ARROW        &kp UP           &kp DOWN     &kp RIGHT              &trans
-&trans  &mt LG(GRAVE) GRAVE  &mkp RCLK       &trans          &trans           &trans           &kp PAGE_DOWN  &kp HOME              &kp END          &trans       &to 4                  &trans
-                                             &to 0           &trans           &trans           &sk ENTER      &to 3                 &to 2
+&trans  &kp ESCAPE           &none           &mmv MOVE_UP    &none            &none            &none          &kp LG(LEFT_BRACKET)  &kp RC(RS(TAB))  &kp RC(TAB)  &kp LG(RIGHT_BRACKET)  &trans
+&trans  &kp TAB              &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp BACKSPACE    &kp PAGE_UP    &kp LEFT_ARROW        &kp UP           &kp DOWN     &kp RIGHT              &trans
+&trans  &mt LG(GRAVE) GRAVE  &mkp RCLK       &none           &none            &none            &kp PAGE_DOWN  &kp HOME              &kp END          &none        &to 4                  &trans
+                                             &to 0           &trans           &trans           &trans         &trans                &to 1
             >;
         };
 
