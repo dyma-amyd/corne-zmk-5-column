@@ -58,7 +58,7 @@
 &trans  &kp Q  &kp W               &kp E       &kp R           &kp T         &kp Y      &kp U          &kp I                 &td MINUS O          &kp P          &trans
 &trans  &kp A  &hm LEFT_CONTROL S  &hm LALT D  &hm LGUI F      &kp G         &kp H      &hm RGUI J     &hm RALT K            &hm RIGHT_CONTROL L  &kp SEMICOLON  &trans
 &trans  &kp Z  &kp X               &kp C       &kp V           &kp B         &kp N      &kp M          &td UNDERSCORE COMMA  &td EXCL DOT         &kp SLASH      &trans
-                                   &to 3       &hm LCMD SPACE  &sk LSHIFT    &kp ENTER  &kp BACKSPACE  &to 1
+                                   &none       &hm LCMD SPACE  &sk LSHIFT    &kp ENTER  &kp BACKSPACE  &to 1
             >;
         };
 
