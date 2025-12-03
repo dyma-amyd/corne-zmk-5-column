@@ -55,19 +55,19 @@
 
         qwerty_layer {
             bindings = <
-&trans  &kp Q  &kp W               &kp E       &kp R           &kp T         &kp Y      &kp U          &kp I                 &td MINUS O          &kp P          &trans
-&trans  &kp A  &hm LEFT_CONTROL S  &hm LALT D  &hm LGUI F      &kp G         &kp H      &hm RGUI J     &hm RALT K            &hm RIGHT_CONTROL L  &kp SEMICOLON  &trans
-&trans  &kp Z  &kp X               &kp C       &kp V           &kp B         &kp N      &kp M          &td UNDERSCORE COMMA  &td EXCL DOT         &kp SLASH      &trans
-                                   &to 3       &hm LCMD SPACE  &kp LSHIFT    &kp ENTER  &kp BACKSPACE  &to 1
+&trans  &td GRAVE Q  &kp W               &kp E       &kp R           &kp T         &kp Y      &kp U          &td STAR I            &td MINUS O          &td EQUAL P    &trans
+&trans  &kp A        &hm LEFT_CONTROL S  &hm LALT D  &hm LGUI F      &kp G         &kp H      &hm RGUI J     &hm RALT K            &hm RIGHT_CONTROL L  &kp SEMICOLON  &trans
+&trans  &kp Z        &kp X               &kp C       &kp V           &kp B         &kp N      &kp M          &td UNDERSCORE COMMA  &td EXCL DOT         &kp SLASH      &trans
+                                         &to 3       &hm LCMD SPACE  &kp LSHIFT    &kp ENTER  &kp BACKSPACE  &to 1
             >;
         };
 
         numsym_layer {
             bindings = <
-&trans  &kp ESC  &kp AT_SIGN  &td LC(LG(LS(N4))) LS(N3)  &kp DLLR          &kp PRCNT         &kp CARET  &kp LS(COMMA)         &kp LS(DOT)            &kp SEMI  &kp MINUS  &trans
-&trans  &kp TAB  &kp TILDE    &kp LA(RBKT)               &kp LA(LS(RBKT))  &kp SQT           &kp BSLH   &kp LBRC              &kp RBRC               &kp PIPE  &kp EQUAL  &trans
-&trans  &to 3    &kp LA(N3)   &kp LA(LBKT)               &kp LA(LS(LBKT))  &kp DQT           &kp LBKT   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RBKT  &kp SLASH  &trans
-                              &to 0                      &hm LCMD SPACE    &kp LEFT_SHIFT    &kp ENTER  &kp BACKSPACE         &to 2
+&trans  &kp ESC  &kp AT_SIGN        &td LC(LG(LS(N4))) LS(N3)  &kp DLLR        &kp PRCNT         &kp CARET  &kp LS(COMMA)         &kp LS(DOT)            &kp SEMI  &kp MINUS  &trans
+&trans  &kp TAB  &kp TILDE          &kp STAR                   &kp GRAVE       &kp SQT           &kp BSLH   &kp LBRC              &kp RBRC               &kp PIPE  &kp EQUAL  &trans
+&trans  &to 3    &kp LA(AMPERSAND)  &none                      &none           &kp DQT           &kp LBKT   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RBKT  &kp SLASH  &trans
+                                    &to 0                      &hm LCMD SPACE  &kp LEFT_SHIFT    &kp ENTER  &kp BACKSPACE         &to 2
             >;
         };
 
