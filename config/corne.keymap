@@ -46,6 +46,16 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+
+        to3_hold: to3_hold {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TO3_HOLD";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick_tap_ms = <0>;
+            flavor = "hold-preferred";
+            bindings = <&trans>, <&to 3>;
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
@@ -58,7 +68,7 @@
 &trans  &td GRAVE Q  &kp W               &kp E       &kp R           &kp T         &kp Y      &kp U          &td STAR I            &td MINUS O          &td EQUAL P    &trans
 &trans  &kp A        &hm LEFT_CONTROL S  &hm LALT D  &hm LGUI F      &kp G         &kp H      &hm RGUI J     &hm RALT K            &hm RIGHT_CONTROL L  &kp SEMICOLON  &trans
 &trans  &kp Z        &kp X               &kp C       &kp V           &kp B         &kp N      &kp M          &td UNDERSCORE COMMA  &td EXCL DOT         &kp SLASH      &trans
-                                         &to 3       &hm LCMD SPACE  &kp LSHIFT    &kp ENTER  &kp BACKSPACE  &to 1
+                                         &to3_hold   &hm LCMD SPACE  &kp LSHIFT    &kp ENTER  &kp BACKSPACE  &to 1
             >;
         };
 
