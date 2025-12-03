@@ -47,14 +47,20 @@
             bindings = <&kp>, <&kp>;
         };
 
+        to3_macro: to3_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 3>;
+        };
+
         to3_hold: to3_hold {
             compatible = "zmk,behavior-hold-tap";
             label = "TO3_HOLD";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             quick_tap_ms = <0>;
-            flavor = "hold-preferred";
-            bindings = <&trans>, <&to 3>;
+            flavor = "tap-preferred";
+            bindings = <&none>, <&to3_macro>;
         };
     };
 
