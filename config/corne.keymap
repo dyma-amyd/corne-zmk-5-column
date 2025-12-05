@@ -58,7 +58,7 @@
 &trans  &td GRAVE Q  &kp W               &kp E       &kp R           &kp T         &kp Y      &kp U          &td STAR I            &td MINUS O          &td EQUAL P    &trans
 &trans  &kp A        &hm LEFT_CONTROL S  &hm LALT D  &hm LGUI F      &kp G         &kp H      &hm RGUI J     &hm RALT K            &hm RIGHT_CONTROL L  &kp SEMICOLON  &trans
 &trans  &kp Z        &kp X               &kp C       &kp V           &kp B         &kp N      &kp M          &td UNDERSCORE COMMA  &td EXCL DOT         &kp SLASH      &trans
-                                         &to 3   &hm LCMD SPACE  &kp LSHIFT    &kp ENTER  &kp BACKSPACE  &to 1
+                                         &to 3       &hm LCMD SPACE  &kp LSHIFT    &kp ENTER  &kp BACKSPACE  &to 1
             >;
         };
 
@@ -80,12 +80,12 @@
             >;
         };
 
-        sys_layer {
+        navigation_layer {
             bindings = <
-&trans  &kp ESCAPE           &none           &mmv MOVE_UP    &none            &none            &none          &kp LG(LEFT_BRACKET)  &kp RC(RS(TAB))  &kp RC(TAB)  &kp LG(RIGHT_BRACKET)  &trans
+&trans  &kp ESCAPE           &kp W           &mmv MOVE_UP    &none            &none            &none          &kp LG(LEFT_BRACKET)  &kp RC(RS(TAB))  &kp RC(TAB)  &kp LG(RIGHT_BRACKET)  &trans
 &trans  &kp TAB              &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp BACKSPACE    &kp PAGE_UP    &kp LEFT_ARROW        &kp DOWN         &kp UP       &kp RIGHT              &trans
 &trans  &mt LG(GRAVE) GRAVE  &mkp RCLK       &none           &none            &none            &kp PAGE_DOWN  &kp HOME              &kp END          &none        &to 4                  &trans
-                                             &to 0           &kp LEFT_ALT     &trans           &trans         &trans                &to 1
+                                             &to 0           &kp LCMD         &kp LEFT_ALT     &trans         &trans                &to 1
             >;
         };
 
