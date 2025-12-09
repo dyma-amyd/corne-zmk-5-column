@@ -82,7 +82,7 @@
 
         navigation_layer {
             bindings = <
-&trans  &kp ESCAPE           &kp W           &mmv MOVE_UP    &none            &none            &none          &kp LG(LEFT_BRACKET)  &kp RC(RS(TAB))  &kp RC(TAB)  &kp LG(RIGHT_BRACKET)  &trans
+&trans  &kp GRAVE            &kp W           &mmv MOVE_UP    &none            &none            &none          &kp LG(LEFT_BRACKET)  &kp RC(RS(TAB))  &kp RC(TAB)  &kp LG(RIGHT_BRACKET)  &trans
 &trans  &kp TAB              &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp BACKSPACE    &kp PAGE_UP    &kp LEFT_ARROW        &kp DOWN         &kp UP       &kp RIGHT              &trans
 &trans  &mt LG(GRAVE) GRAVE  &mkp RCLK       &none           &none            &none            &kp PAGE_DOWN  &kp HOME              &kp END          &none        &to 4                  &trans
                                              &to 0           &kp LCMD         &kp LEFT_ALT     &trans         &trans                &to 1
