@@ -62,16 +62,16 @@
             >;
         };
 
-        numsym_layer {
+        symbol_layer {
             bindings = <
-&trans  &kp ESC  &kp AT_SIGN        &td LC(LG(LS(N4))) LS(N3)  &kp DLLR        &kp PRCNT         &kp CARET  &kp LS(COMMA)         &kp LS(DOT)            &kp SEMI  &kp MINUS  &trans
+&trans  &kp ESC  &kp AT_SIGN        &td LC(LG(LS(N4))) LS(N3)  &kp DLLR        &kp PRCNT         &kp CARET  &kp LS(COMMA)         &kp LS(DOT)            &kp PLUS  &kp MINUS  &trans
 &trans  &kp TAB  &kp TILDE          &kp STAR                   &kp GRAVE       &kp SQT           &kp BSLH   &kp LBRC              &kp RBRC               &kp PIPE  &kp EQUAL  &trans
 &trans  &to 3    &kp LA(AMPERSAND)  &none                      &none           &kp DQT           &kp LBKT   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RBKT  &kp SLASH  &trans
                                     &to 0                      &hm LCMD SPACE  &kp LEFT_SHIFT    &kp ENTER  &kp BACKSPACE         &to 2
             >;
         };
 
-        fun_layer {
+        num_layer {
             bindings = <
 &trans  &kp ESC  &kp C_PP  &kp C_PREV    &kp C_NEXT          &kp LS(MINUS)       &kp MINUS  &kp N7         &kp N8  &kp N9  &kp BACKSPACE  &trans
 &trans  &kp TAB  &none     &kp C_VOL_DN  &kp C_VOL_UP        &kp LS(EQUAL)       &kp EQUAL  &kp N4         &kp N5  &kp N6  &kp COMMA      &trans
@@ -82,7 +82,7 @@
 
         navigation_layer {
             bindings = <
-&trans  &kp GRAVE            &kp W           &mmv MOVE_UP    &none            &none            &none          &kp LG(LEFT_BRACKET)  &kp RC(RS(TAB))  &kp RC(TAB)  &kp LG(RIGHT_BRACKET)  &trans
+&trans  &td ESCAPE GRAVE     &kp W           &mmv MOVE_UP    &none            &none            &none          &kp LG(LEFT_BRACKET)  &kp RC(RS(TAB))  &kp RC(TAB)  &kp LG(RIGHT_BRACKET)  &trans
 &trans  &kp TAB              &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp BACKSPACE    &kp PAGE_UP    &kp LEFT_ARROW        &kp DOWN         &kp UP       &kp RIGHT              &trans
 &trans  &mt LG(GRAVE) GRAVE  &mkp RCLK       &none           &none            &none            &kp PAGE_DOWN  &kp HOME              &kp END          &none        &to 4                  &trans
                                              &to 0           &kp LCMD         &kp LEFT_ALT     &trans         &trans                &to 1
