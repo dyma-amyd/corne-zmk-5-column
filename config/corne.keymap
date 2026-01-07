@@ -56,7 +56,7 @@
 &trans  &hm GRAVE Q  &kp W               &kp E       &kp R           &kp T         &kp Y          &kp U          &hm STAR I            &hm MINUS O          &hm EQUAL P    &trans
 &trans  &kp A        &td LEFT_CONTROL S  &td LALT D  &td LGUI F      &kp G         &kp H          &td RGUI J     &td RALT K            &td RIGHT_CONTROL L  &kp SEMICOLON  &trans
 &trans  &kp Z        &kp X               &kp C       &kp V           &kp B         &kp N          &kp M          &hm UNDERSCORE COMMA  &hm EXCL DOT         &kp SLASH      &trans
-                                         &to 3       &td LCMD SPACE  &kp LSHIFT    &td TAB ENTER  &kp BACKSPACE  &to 1
+                                         &to 0       &td LCMD SPACE  &kp LSHIFT    &td TAB ENTER  &kp BACKSPACE  &to 1
             >;
         };
 
